@@ -1,0 +1,15 @@
+.subData {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 80vw;
+    height: auto;
+    margin-top: 20px;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: rgba(255,255,255,0.2);
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
