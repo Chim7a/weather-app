@@ -15,7 +15,6 @@ const Home = () => {
       if (Event.key === 'Enter') {
         axios.get(url).then((res) => {
           setData(res.data)
-          console.log(res.data)
         })
         setLocation('')
       }
