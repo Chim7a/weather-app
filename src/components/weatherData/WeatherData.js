@@ -6,7 +6,7 @@ const WeatherData = ({data}) => {
         <div>
             <div>
                 <div>
-                    <p style={{fontSize:"2.5rem", fontWeight:"bolder"}}>{data.name}</p>
+                    <p style={{fontSize:"3.5rem", fontWeight:"bolder"}}>{data.name}</p>
                 </div>
 
                 <div>
@@ -14,7 +14,7 @@ const WeatherData = ({data}) => {
                 </div>
                 
                 <div>
-                {data.weather ? <p>{data.weather[0].main}</p> : null}
+                {data.weather ? <p style={{textAlign:"center", fontWeight:"bolder"}}>{data.weather[0].main}</p> : null}
                 </div>
             </div>
         </div>

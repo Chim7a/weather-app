@@ -19,7 +19,7 @@ const Home = () => {
         })
         setLocation('')
       }
-  
+
     }
 
   return (
@@ -31,8 +31,8 @@ const Home = () => {
         <div className="weatherData">
             {data.name === undefined && 
             <div className="welcome__msg">
-            <h2>Welcome to my Open Weather</h2>
-              <p>Created by Chima Ikegbulam</p>
+              <h2>Welcome to my Open Weather App</h2>
+              <p>Developed by Chima Ikegbulam</p>
             </div>
             }
             <WeatherData data={data} />
