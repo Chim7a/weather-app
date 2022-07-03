@@ -7,7 +7,7 @@ const SubWeatherData = ({data}) => {
         {data.name !== undefined && 
           <div className="subData">
               <div>
-                    {data.main ? <p className="bold">{data.main.feels_like.toFixed()}F</p> : null}
+                    {data.main ? <p className="bold">{data.main.feels_like.toFixed()}°F</p> : null}
                     <p>Feels Like</p>
               </div>
       
